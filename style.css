@@ -1,0 +1,95 @@
+body {
+    text-align: center;
+    background-color: #011F3F; 
+    font-family: 'Poppins', sans-serif;
+    color: #FEF2BF;
+    margin: 0;
+    padding-top: 1rem;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+
+h2 {
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; 
+}
+
+.btn {
+    height: 180px;
+    width: 180px;
+    border-radius: 20%;
+    border: 8px solid #444;
+    margin: 2rem 1rem;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
+    transition: all 0.1s ease-in-out;
+    font-size: 0; 
+}
+
+.btn:hover {
+    cursor: pointer;
+    filter: brightness(1.1);
+}
+
+.btn:active {
+    transform: scale(0.97);
+    box-shadow: inset 2px 2px 8px rgba(0, 0, 0, 0.6);
+}
+
+.red {
+    background-color: #c72c41;
+}
+
+.purple {
+    background-color: #8E44AD;
+}
+
+.orange {
+    background-color: #ee9f27;
+}
+
+.blue {
+    background-color: #2D82B5;
+}
+
+.gameflash {
+    background-color: white;
+    box-shadow: 0 0 20px white;
+    border-color: white;
+}
+
+.usercorrectflash {
+    background-color: #63F282;
+    box-shadow: 0 0 20px #63F282;
+    border-color: #63F282;
+}
+
+.userwrongflash {
+    background-color: #E74C3C;
+    box-shadow: 0 0 20px #E74C3C;
+    border-color: #E74C3C;
+    animation: shake 0.5s;
+}
+
+body.game-over {
+    background-color: #5E0B15; 
+    transition: background-color 0.5s ease;
+}
+
+@keyframes shake {
+  10%, 90% { transform: translateX(-5px); }
+  20%, 80% { transform: translateX(5px); }
+  30%, 50%, 70% { transform: translateX(-3px); }
+  40%, 60% { transform: translateX(3px); }
+}
