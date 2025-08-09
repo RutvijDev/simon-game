@@ -2,7 +2,7 @@
 
 A Browser-based version of the classic electronic memory game, Simon. This project was built from scratch using vanilla HTML, CSS, and JavaScript, focusing on clean code, responsive design, and a great user experience.
 
-![Simon Game Screenshot](simon-game.png)
+![Simon Game Screenshot](./assets/simon-game.png)
 
 ## Live Demo
 
